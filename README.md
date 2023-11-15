@@ -6,44 +6,44 @@
 *Ход работы*
 
 1. Создан аккаунт на сайте GitHub
-![рис.1]("screenshots_git/photo_2023-11-13_16-17-24.jpg")
+![рис.1](screenshots_git/photo_2023-11-13_16-17-24.jpg)
 
 2. Создана копия исходного репозитория в личное хранилище
-![рис.2]("screenshots_git/photo_2023-11-14_13-53-56.jpg")
+![рис.2](screenshots_git/photo_2023-11-14_13-53-56.jpg)
 
 3. Установлен Git
-![рис.3]("screenshots_git/photo_2023-11-13_17-42-29.jpg")
+![рис.3](screenshots_git/photo_2023-11-13_17-42-29.jpg)
 
 4. Настроен клиент Git (введено имя пользователя и email) с помощью команд `git config --global user.name <имя>` и `git config --global user.email <почта>`
-![рис.4]("screenshots_git/photo_2023-11-13_19-38-42.jpg")
+![рис.4](screenshots_git/photo_2023-11-13_19-38-42.jpg)
 
 5. Клонирован личный удалённый репозиторий на компьютер с помощью `git clone`
-![рис.5]("screenshots_git/photo_2023-11-14_14-00-09.jpg")
+![рис.5](screenshots_git/photo_2023-11-14_14-00-09.jpg)
 
 6. Добавлен файл через интерфейс GitHub
-![рис.6]("screenshots_git/photo_2023-11-14_14-02-07.jpg")
+![рис.6](screenshots_git/photo_2023-11-14_14-02-07.jpg)
 
 Изменения подтянуты в локальный репозиторий (переход в локальный репозиторий - `cd LR6 `,  "подтягивание" - `git pull`)
-![рис.7]("screenshots_git/photo_2023-11-14_14-06-57.jpg")
+![рис.7](screenshots_git/photo_2023-11-14_14-06-57.jpg)
 
 > Далее работа продолжена локально
 
 7. Получена история операций веток с помощью `git log`
 
 Для **master**
-![рис.8]("screenshots_git/photo_2023-11-14_14-15-50.jpg")
+![рис.8](screenshots_git/photo_2023-11-14_14-15-50.jpg)
 
 Для **branch1**
-![рис.9]("screenshots_git/photo_2023-11-14_14-25-42.jpg")
+![рис.9](screenshots_git/photo_2023-11-14_14-25-42.jpg)
 
 8. Просмотрены последние изменения ветки master с помощью `git log --all --graph --oneline`
-![рис.10]("screenshots_git/photo_2023-11-14_14-38-09.jpg")
+![рис.10](screenshots_git/photo_2023-11-14_14-38-09.jpg)
 
 9. Выполнено слияние веток с помощью `git merge branch1`, просматрено состояние проекта, используя `git status` и разрешен конфликт по данной ситуации с помощью `git add <file>`
-![рис.11]("screenshots_git/photo_2023-11-14_14-56-03.jpg")
+![рис.11](screenshots_git/photo_2023-11-14_14-56-03.jpg)
 
 10. Удаление побочной ветки после слияния с помощью `git branch -d <ветка>`
-![рис.12]("screenshots_git/photo_2023-11-14_22-51-48.jpg")
+![рис.12](screenshots_git/photo_2023-11-14_22-51-48.jpg)
 
 11. Проведены и зафиксированы изменения, используемые команды:
 - `echo текст_изменения > файл_для_сохранения`
@@ -51,22 +51,22 @@
 - `git commit -m "изменение n"`
 
 Первое изменение
-![рис.13]("screenshots_git/photo_2023-11-14_22-54-57.jpg")
+![рис.13](screenshots_git/photo_2023-11-14_22-54-57.jpg)
 
 Второе изменение
-![рис.14]("screenshots_git/photo_2023-11-14_22-56-56.jpg")
+![рис.14](screenshots_git/photo_2023-11-14_22-56-56.jpg)
 
 Просмотр историй операций с помощью `git log -2`
-![рис.14]("screenshots_git/photo_2023-11-14_22-57-58.jpg")
+![рис.14](screenshots_git/photo_2023-11-14_22-57-58.jpg)
 
 12. Сделан откат коммита с помощью `git reset HEAD~1` и проверка истории изменений с помощью `git log -2`
-![рис.15]("screenshots_git/photo_2023-11-14_22-59-48.jpg")
+![рис.15](screenshots_git/photo_2023-11-14_22-59-48.jpg)
 
 13. Создана ветка для отчёта branch2 с помощью `git branch branch2`
-![рис.16]("screenshots_git/photo_2023-11-14_23-03-06.jpg")
+![рис.16](screenshots_git/photo_2023-11-14_23-03-06.jpg)
 
 14. Оформлен отчет в редакторе Notepad
-![рис.17]("screenshots_git/photo_2023-11-15_01-22-00.jpg")
+![рис.17](screenshots_git/photo_2023-11-15_01-22-00.jpg)
 
 15. Получена история операций в форматированном виде
-![рис.17]("screenshots_git/photo_2023-11-15_01-32-43.jpg")
+![рис.17](screenshots_git/photo_2023-11-15_01-32-43.jpg)
